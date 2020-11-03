@@ -1,16 +1,12 @@
 <?php
-$taulukko1 = ['A', 'B', 'C' , 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K'];
-$taulukko2 = ['K', 'J', 'I' , 'H', 'G', 'F', 'E', 'D', 'C', 'B', 'A'];
-$arrlength = count($taulukko1);
+$taulukko = ['A', 'B', 'C' , 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K'];
 
-for ($x = 0; $x < $arrlength; $x++) {
-    echo $taulukko1[$x];
-    echo ' ';
+for ($x = 0; $x < count($taulukko); $x = $x + 1) {
+    echo $taulukko[$x] . ' ';
 }
 echo '<br>';
-for ($x = 0; $x < $arrlength; $x++) {
-    echo $taulukko2[$x];
-    echo ' ';
+for ($x = count($taulukko) - 1; $x >= 0; $x = $x - 1) {
+    echo $taulukko[$x] . ' ';
 }
 
 
