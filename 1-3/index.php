@@ -2,4 +2,4 @@
 $name = 'Mira';
 $age  = 28;
 
-echo 'Nimeni on ' . $name . ' ja olen ' . $age . ' vuotta.' . ' (Oikeasti kyllä 43...)';
+echo 'Nimeni on ' . $name . ' ja olen ' . $age . ' vuotta.' . ' (Oikeasti kyllä vähän enemmän...)';
